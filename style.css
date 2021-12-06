@@ -1,0 +1,966 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logodark,
+main {
+    background-color: ghostwhite;
+}
+
+#entete,
+footer {
+    background-color: #6A7B8B;
+}
+
+footer {
+    padding-block:46px;
+}
+
+#entete img{
+    width: 10vw;
+    margin-bottom: 00.5rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+#entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#dark {
+    width: 15vw;
+    display: block;
+    margin: auto;
+    padding-top: 48px;
+}
+
+footer img {
+    width: 3.9vw;
+    float: left;
+    margin-left: 56px;
+}
+
+#reseaux {
+    text-align: center;
+}
+
+#reseaux p {
+    color: white;
+    font-size: 18px;
+}
+
+#reseau img {
+    width: 30px;
+    
+}
+
+#reseau {
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#banniere {
+    background: url(assets/mr_coffee_salle.jpg) no-repeat center center;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    width: 85vw;
+    height: 120vh;
+    padding-top: 5rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 1.2rem;
+}
+
+li {
+    margin-bottom: 4vh;
+    margin-right: 6vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4vh;
+    font-size: 1.2rem;
+}
+
+#groupe img {
+    width: 8vw;
+    display: block;
+    margin: auto;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#groupe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    width: 87vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.carte {
+    width: 26vw;
+    background-color: silver;
+    padding-top: 3rem;
+    height: 60vh;
+    border: none;
+    box-shadow: 1px 2px 0px wheat;
+    margin-bottom: 2.5rem;
+}
+
+.carte p {
+    width: 21vw;
+    margin: 2.5rem auto auto auto;
+    line-height: 1.5rem;
+}
+
+#button {
+    margin: 4rem auto 4rem auto;
+    display: block;
+    justify-content: center;
+    background-color: #6A7B8B;
+    width: 250px;
+    height: 4rem;
+    line-height: 7vh;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+#pancarte img {
+    width: 6vw;
+    margin-right: 2rem;
+}
+
+#pancarte {
+    display: flex;
+    color: gray;
+    font-size: 1.6rem;
+    padding-left: 13rem;
+    padding-bottom: 4rem;
+}
+
+#pancarte p {
+    padding-top: 3rem;
+}
+
+#mardi {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8rem;
+}
+
+#jeudi {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8rem;
+
+}
+
+#jours {
+    width: 87vw;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+
+
+.texte-jour {
+    padding-bottom: 5rem;
+}
+
+#bas {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+#bas-deux {
+    font-size: 1.6rem;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 10px black;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: grey;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+    font-weight: initial;
+}
+
+
+
+#cafe img {
+    width: 35vw;
+    padding: 2rem 0 7rem 0;
+}
+
+#cafe {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+#cafe p {
+    font-size: 1.7rem;
+    padding: 0 0 3rem 3rem;
+    text-align: left;
+    color: grey;
+    width: 47vw;
+
+}
+
+#cafe h2 {
+
+    font-size: 2.4rem;
+    padding: 6rem 0 0 3rem;
+    text-align: left;
+    width: 35rem;
+}
+
+#salle02 img {
+    width: 36vw;
+    padding: 0 0 5rem 3rem;
+
+}
+
+#salle02 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#salle02 p {
+    font-size: 1.7rem;
+    text-align: left;
+    color: grey;
+    padding: 0 7rem 2rem 0;
+    width: 51vw;
+}
+
+#salle02 h2 {
+    font-size: 2rem;
+    text-align: left;
+    width: 35rem;
+}
+
+#adresse {
+    padding-bottom: 2rem;
+}
+
+
+#info {
+    width: 63vw;
+    color: gray;
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+#carte img {
+    width: 63vw;
+    display: block;
+    margin: auto;
+    padding: 4rem 0 5rem 0;
+}
+
+/* formulaire */
+
+#form_conctact {
+    width: 50vw;
+    margin: auto;
+}
+
+#form_conctact h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    text-shadow: none;
+}
+
+input {
+    width: 50vw;
+    height: 4.3vh;
+    background-color: #5b6772;
+    border: none;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+label {
+    margin-top: .6rem;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+#message {
+ width: 50vw;
+ height: 15vh;
+ background: #5b6772;
+ border: none;
+ border-radius: 4px;
+ color: white;
+ font-size: 1.2rem;
+}
+
+#message::placeholder {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#envoyer {
+    max-width: 25vw;
+    width: 20vw;
+    height: 6.5vh;
+    display: block;
+    margin: 1rem auto auto auto;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #5b6772;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* modal_PopUp */
+.modal-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    background: black;
+}
+
+
+
+.modal {
+    width: 70vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    margin: auto;
+    padding: 2rem ;
+}
+
+#header_modal img {
+    float: left;
+    margin-right: 2rem;
+}
+
+#header_modal h3 {
+    text-align: center;
+}
+
+#body_modal p {
+    text-align: left;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+
+/* close button  */
+#close {
+    width: 20vw;
+    height: 5vh;
+    display: block;
+    background:  #5b6a77;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    pointer-events: auto;
+    margin: auto;
+}
+
+
+/*responsive*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #entete img {
+        width: 16vw;
+        display: block;
+    }
+
+    #entete {
+        align-items: center;
+        width: 100vw;
+    }
+
+    ul {
+        margin-top: 1.5rem;
+
+    }
+
+    ul a {
+        padding: 0;
+
+    }
+
+    #dark {
+        width: 25vw;
+        padding-top: 2rem;
+    }
+
+
+    ul a {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    #cafe,
+    #salle02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cafe p,
+    #salle02 p {
+        width: 80vw;
+        font-size: 1.2rem;
+        line-height: 1.3;
+        padding: 0 0 4rem 0;
+        margin: auto;
+
+    }
+
+    #cafe h2,
+    #salle02 h2 {
+        width: 80vw;
+        font-size: 1.5rem;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    #cafe img {
+        width: 60vw;
+        display: block;
+        margin: auto;
+        padding: 0;
+        transform: rotate(90deg);
+    }
+
+    #salle02 img {
+        width: 90vw;
+        display: block;
+        padding: 0;
+        margin: auto auto 1.8rem auto;
+    }
+
+    #reseau img {
+        width: 7vw;
+        margin: 0;
+    }
+
+    #reseaux p {
+        margin-bottom: 1.5rem;
+    }
+
+    #reseau {
+        width: 100vw;
+        margin: auto;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* accueil */
+    #banniere {
+        background-size: contain;
+        height: 40vh;
+    }
+
+    #banniere h1 {
+        font-size: 1.9rem;
+    }
+
+    #groupe {
+        flex-direction: column;
+    }
+
+    .carte {
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .carte p {
+        width: 70vw;
+    }
+
+    button {
+        width: 50vw;
+        line-height: 0;
+        padding: 3rem 0;
+    }
+
+    #pancarte img {
+        width: 15vw;
+    }
+
+    #pancarte {
+        padding: 0 0 0 7.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #jours,
+    #jeudi {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #jeudi,
+    #un {
+        flex-direction: column;
+        gap: 3rem;
+        margin: 0;
+    }
+
+    .texte-jour {
+        width: 80vw;
+        padding: 0;
+        margin: auto auto 2rem auto;
+    }
+
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+    #entete img {
+        width: 40vw;
+        display: block;
+        margin: auto;
+    }
+
+    #entete {
+        flex-direction: column;
+        padding: 1rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        width: 100vw;
+        justify-content: center;
+        gap: 2rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    #dark {
+        width: 35vw;
+        padding-top: 2rem;
+    }
+
+
+    ul a {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #cafe,
+    #salle02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cafe p,
+    #salle02 p {
+        width: 80vw;
+        font-size: 1.4rem;
+        line-height: 1.3;
+        padding: 0 0 4rem 0;
+        margin: auto;
+
+    }
+
+    #cafe h2,
+    #salle02 h2 {
+        width: 80vw;
+        font-size: 1.5rem;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    #cafe img {
+        width: 60vw;
+        display: block;
+        margin: auto;
+        padding: 0;
+        transform: rotate(90deg);
+    }
+
+    #salle02 img {
+        width: 90vw;
+        display: block;
+        padding: 0;
+        margin: auto auto 1.8rem auto;
+    }
+
+    #reseau img {
+        width: 7vw;
+        margin: 0;
+    }
+
+    #reseaux p {
+        margin-bottom: 1.5rem;
+    }
+
+    #reseau {
+        width: 100vw;
+        margin: auto;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* contact */
+    #info {
+        width: 80vw;
+    }
+
+    #info p {
+        font-size: 1.3rem;
+    }
+
+    #carte img {
+        width: 80vw;
+    }
+
+    /* accueil */
+    #banniere {
+        background-size: contain;
+        height: 40vh;
+    }
+
+    #banniere h1 {
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+
+    #groupe {
+        flex-direction: column;
+    }
+#groupe img{
+    width: 20vw;
+}
+    .carte {
+        width: 80vw;
+        height: 68vh;
+    }
+    .carte h3{
+        font-size: 1.5rem;
+    }
+    .carte p {
+        width: 70vw;
+        font-size: 1.1rem;
+    }
+
+    button {
+        width: 60vw;
+        line-height: 0;
+        padding: 2.5rem 0;
+    }
+
+    #pancarte img {
+        width: 15vw;
+    }
+
+    #pancarte strong{
+        font-size: 1rem;
+        position: absolute;
+        top: 2rem;
+    }
+
+    #pancarte {
+        
+        padding: 0 0 0 1rem;
+        margin: 2rem auto 2rem auto;
+        position: relative;
+
+    }
+    #jours{
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    #trois, #bas-deux{
+        font-size: 1rem;
+    }
+    
+    #jours,
+    #jeudi {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #jeudi,
+    #un {
+        flex-direction: column;
+        gap: 3rem;
+        margin: 0;
+    }
+
+    .texte-jour {
+        width: 80vw;
+        padding: 0;
+        margin: auto auto 2rem auto;
+    }
+}
+
+@media (max-width: 365px){
+    #entete img {
+        width: 40vw;
+        display: block;
+        margin: auto;
+    }
+
+    #entete {
+        flex-direction: column;
+        padding: 1rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        width: 100vw;
+        justify-content: center;
+        gap: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    #dark {
+        width: 35vw;
+        padding-top: 2rem;
+    }
+
+
+    ul a {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    #cafe,
+    #salle02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cafe p,
+    #salle02 p {
+        width: 80vw;
+        font-size: 1.4rem;
+        line-height: 1.3;
+        padding: 0 0 4rem 0;
+        margin: auto;
+
+    }
+
+    #cafe h2,
+    #salle02 h2 {
+        width: 80vw;
+        font-size: 1.5rem;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    #cafe img {
+        width: 60vw;
+        display: block;
+        margin: auto;
+        padding: 0;
+        transform: rotate(90deg);
+    }
+
+    #salle02 img {
+        width: 90vw;
+        display: block;
+        padding: 0;
+        margin: auto auto 1.8rem auto;
+    }
+
+    #reseau img {
+        width: 7vw;
+        margin: 0;
+    }
+
+    #reseaux p {
+        margin-bottom: 1.5rem;
+    }
+
+    #reseau {
+        width: 100vw;
+        margin: auto;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* contact */
+    #info {
+        width: 80vw;
+    }
+
+    #info p {
+        font-size: 1.3rem;
+    }
+
+    #carte img {
+        width: 80vw;
+    }
+
+    /* accueil */
+    #banniere {
+        background-size: contain;
+        height: 40vh;
+    }
+
+    #banniere h1 {
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+
+    #groupe {
+        flex-direction: column;
+    }
+#groupe img{
+    width: 20vw;
+}
+    .carte {
+        width: 80vw;
+        height: 68vh;
+    }
+    .carte h3{
+        font-size: 1.5rem;
+    }
+    .carte p {
+        width: 70vw;
+        font-size: 1.1rem;
+    }
+
+    button {
+        width: 60vw;
+        line-height: 0;
+        padding: 2.5rem 0;
+    }
+
+    #pancarte img {
+        width: 15vw;
+    }
+
+    #pancarte strong{
+        font-size: 1rem;
+        position: absolute;
+        top: 2rem;
+    }
+
+    #pancarte {
+        
+        padding: 0 0 0 1rem;
+        margin: 2rem auto 2rem auto;
+        position: relative;
+
+    }
+    #jours{
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    #trois, #bas-deux{
+        font-size: 1rem;
+    }
+    
+    #jours,
+    #jeudi {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #jeudi,
+    #mardi {
+        flex-direction: column;
+        gap: 3rem;
+        margin: 0;
+    }
+
+    .texte-jour {
+        width: 80vw;
+        padding: 0;
+        margin: auto auto 2rem auto;
+    }
+}

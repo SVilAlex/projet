@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nous contacter</title>
+</head>
+
+<body>
+	<header>
+		<div id="entete">
+			<img src="assets/full_logo_white.png" alt="logo mr coffee" id="logow">
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="about.html"> Qui sommes nous ?</a></li>
+					<li><a href="contact.html">Nous contacter</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="logodark">
+			<img src="assets/logo_mrcoffee.png" alt="logo mr coffee dark" id="dark">
+		</div>
+	</header>
+	<main>
+		<section id="form_conctact">
+
+			<h1>Dites nous tout !</h1>
+			<!-- form_Contact -->
+			<form method="post">
+				<label for='nom'> Nom *</label>
+				<input type='text' id='nom' required>
+				<span id='messageErreurNom'></span><br>
+
+
+				<label for='prenom'> Prénom * </label>
+				<input type='text' id='prenom' required>
+				<span id='messageErreurPrenom'></span><br>
+
+
+				<label for='tel'> Téléphone </label>
+				<input type='tel'>
+
+
+				<label for='mail'>Adresse mail *</label>
+				<input type='email' id='mail' required><br>
+				<span id='messageErreurEmail'></span><br>
+
+
+				<label for="message">Message *</label>
+				<textarea type='text' placeholder="Tapez votre message ici !" id='message' required></textarea><br>
+				<span id='messageErreurMessage'></span><br>
+
+				<button type='button' value='Valider' id='envoyer'>Valider</button>
+			</form>
+
+			<!-- modal_PopUP -->
+			<div class="modal-container" id="modal_container" id="envoyer">
+				<div class="modal">
+					<div id="header_modal">
+						<img src="assets/logo_dark.png" width="50" alt="logo noir">
+						<h3>MERCI <br> Votre message a bien été envoyé !</h3>
+					</div>
+					<div id="body_modal">
+						<p>Nous essaierons d'y répondre au mieux dans les plus brefs délais. À bientot chez Mr.coffee
+						</p>
+					</div>
+					<button type="button" onclick="close" id="close">Fermer</button type="button">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section>
+			<h2>On vous attend !</h2>
+			<div id="info">
+				<div id="adresse">
+					<p><strong>Mr.Coffee</strong><br>15 place Jules Guesde<br>75006 Paris</p>
+				</div>
+				<div>
+					<p> <a href="tel:+33 9 46 25 78 45">Tel : +33 9 46 25 78 45</a></p>
+					<p> <a href="mailto:contact@mr-coffee.com"> Mail : contact@mr-coffee.com</a></p>
+					<!-- <p>Tel : +33 9 46 25 78 45<br>Mail : contact@mr-coffee.com</p> -->
+				</div>
+			</div>
+		</section>
+
+		<section id="carte">
+			<img src="assets/carte_contact.png" alt="phote carte adresse">
+		</section>
+
+
+	</main>
+	<footer>
+		<img src="assets/logo_blanc.png" alt="logo mr coffee" id="logob">
+		<div id="reseaux">
+			<p>Suivez nous sur les réseaux sociaux !</p>
+			<div id="reseau">
+				<img src="assets/logo_linkedin.png" alt="logo linkedin">
+				<img src="assets/logo_twitter.png" alt="logo twitter">
+				<img src="assets/logo_facebook.png" alt="logo facebook">
+			</div>
+		</div>
+
+	</footer>
+
+
+	<script src="form.js"></script>
+</body>
+
+</html>
